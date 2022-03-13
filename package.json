@@ -1,0 +1,31 @@
+{
+  "name": "babel-uglifyjs-es5",
+  "version": "1.0.0",
+  "description": "es6↑-->babel-->uglify.js-->es5.min.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "npx babel index.js --out-file babel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DT333TJ/babel-uglifyjs-es5.git"
+  },
+  "keywords": [
+    "babel",
+    "uglify",
+    "es5",
+    "es6"
+  ],
+  "author": "wuzy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DT333TJ/babel-uglifyjs-es5/issues"
+  },
+  "homepage": "https://github.com/DT333TJ/babel-uglifyjs-es5#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
